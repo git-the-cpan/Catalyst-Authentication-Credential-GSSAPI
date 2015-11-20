@@ -17,6 +17,12 @@ my $builder = Module::Build->new
    { 'lib/Catalyst/Authentication/Credential/GSSAPI.xs' =>
      'lib/Catalyst/Authentication/Credential/GSSAPI.xs',
    },
+   meta_merge =>
+   { resources =>
+     { 'repository' =>
+       'https://github.com/bloomberg/Catalyst-Authentication-Credential-GSSAPI',
+     },
+   },
   );
 $builder->create_build_script();
 
