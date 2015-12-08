@@ -23,12 +23,17 @@
          "requires" : {
             "Module::Build" : "0.39"
          }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "v5.10.0"
+         }
       }
    },
    "provides" : {
       "Catalyst::Authentication::Credential::GSSAPI" : {
          "file" : "lib/Catalyst/Authentication/Credential/GSSAPI.pm",
-         "version" : "v0.0.2"
+         "version" : "v0.0.3"
       }
    },
    "release_status" : "stable",
@@ -40,6 +45,6 @@
          "url" : "https://github.com/bloomberg/Catalyst-Authentication-Credential-GSSAPI"
       }
    },
-   "version" : "v0.0.2",
+   "version" : "v0.0.3",
    "x_serialization_backend" : "JSON::PP version 2.27200"
 }
