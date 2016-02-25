@@ -3,7 +3,7 @@ lib/Catalyst/Authentication/Credential/GSSAPI.pm
 lib/Catalyst/Authentication/Credential/GSSAPI.xs
 LICENSE
 MANIFEST			This list of files
-META.json
-META.yml
 README
 t/001_sanity.t
+META.yml
+META.json
