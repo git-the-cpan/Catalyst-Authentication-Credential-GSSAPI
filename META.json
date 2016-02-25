@@ -34,7 +34,7 @@
    "provides" : {
       "Catalyst::Authentication::Credential::GSSAPI" : {
          "file" : "lib/Catalyst/Authentication/Credential/GSSAPI.pm",
-         "version" : "v0.0.4"
+         "version" : "v0.0.5"
       }
    },
    "release_status" : "stable",
@@ -46,6 +46,6 @@
          "url" : "https://github.com/bloomberg/Catalyst-Authentication-Credential-GSSAPI"
       }
    },
-   "version" : "v0.0.4",
+   "version" : "v0.0.5",
    "x_serialization_backend" : "JSON::PP version 2.27200"
 }

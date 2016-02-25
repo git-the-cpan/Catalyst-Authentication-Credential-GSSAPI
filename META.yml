@@ -17,11 +17,11 @@ name: Catalyst-Authentication-Credential-GSSAPI
 provides:
   Catalyst::Authentication::Credential::GSSAPI:
     file: lib/Catalyst/Authentication/Credential/GSSAPI.pm
-    version: v0.0.4
+    version: v0.0.5
 requires:
   perl: v5.10.0
 resources:
   license: http://apache.org/licenses/LICENSE-2.0
   repository: https://github.com/bloomberg/Catalyst-Authentication-Credential-GSSAPI
-version: v0.0.4
+version: v0.0.5
 x_serialization_backend: 'CPAN::Meta::YAML version 0.016'
